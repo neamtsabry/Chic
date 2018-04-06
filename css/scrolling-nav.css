@@ -3,7 +3,9 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-
+body {
+  font-family: 'Avenir Next';
+}
 header {
   padding: 154px 0 100px;
 }
@@ -20,4 +22,5 @@ section {
 .bg-primary{
   background-image: url('https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/30177096_10215916222522102_788611237_o.png?_nc_cat=0&oh=9c6ac281c8396a17e4894e7e1c7d2282&oe=5AC98516');
    background-position: center;
+  background-size: contain;
 }
