@@ -12,7 +12,9 @@ html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
 }
-
+body{
+  font=family: 'Avenir Next';
+}
 *,
 *::before,
 *::after {
