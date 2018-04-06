@@ -17,3 +17,7 @@ header {
 section {
   padding: 150px 0;
 }
+.bg-primary{
+  background-image: url('https://scontent-lga3-1.xx.fbcdn.net/v/t35.0-12/30177096_10215916222522102_788611237_o.png?_nc_cat=0&oh=9c6ac281c8396a17e4894e7e1c7d2282&oe=5AC98516');
+   background-position: center;
+}
