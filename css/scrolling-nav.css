@@ -53,3 +53,19 @@ section {
     color: white;
 }
 .button1 {background-color: #f4b08d;}
+/*for order.html*/
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+fieldset {
+  background: cyan;
+  border: 5px solid blue;
+}
+
+legend {
+  padding: 10px;
+  background: blue;
+  color: cyan;
+}
