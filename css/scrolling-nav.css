@@ -60,12 +60,10 @@ form {
 }
 
 fieldset {
-  background: cyan;
-  border: 5px solid blue;
+  border: 5px black;
 }
 
 legend {
   padding: 10px;
-  background: blue;
-  color: cyan;
+  color: black;
 }
