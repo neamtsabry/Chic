@@ -22,5 +22,6 @@ section {
 .bg-primary{
   background-image: url('https://scontent.fbed1-2.fna.fbcdn.net/v/t34.0-12/30020311_10215916222522102_788611237_n.png?_nc_cat=0&oh=e9004dabb370102077c9bb8d0b889f6d&oe=5ACB73A7');
    background-position: center;
+  background-size:cover;
   height: 100vh;
 }
