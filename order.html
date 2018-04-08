@@ -21,44 +21,53 @@
 
   </head>
   <body>
-    <h1>Here's your table's order, please select your dishes.</h2>
-    <form>
-      <fieldset>
-        <legend>Appetizers</legend>
-        <div>
-          <input type="checkbox" id="order1" name="salad">
-          <label for="order1">Green Salad</label>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h1>Here's your table's order, please select your dishes.</h2>
+          <form>
+            <fieldset>
+              <legend>Appetizers</legend>
+              <div>
+                <input type="checkbox" id="order1" name="salad">
+                <label for="order1">Green Salad</label>
+              </div>
+              <div>
+                <input type="checkbox" id="order2" name="soup">
+                <label for="order2">Cream of Mushroom Soup</label>
+              </div>
+            </fieldset>
+          </form>
+          <form>
+            <fieldset>
+              <legend>Main Dishes</legend>
+              <div>
+                <input type="checkbox" id="order3" name="salmon">
+                <label for="order3">Pan-Seared Salmon with Kale and Apple Salad</label>
+              </div>
+              <div>
+                <input type="checkbox" id="order4" name="meat">
+                <label for="order4">Greek Meat and Chick Pea</label>
+              </div>
+            </fieldset>
+          </form>
+          <form>
+            <fieldset>
+            <legend>Dessert</legend>
+              <div>
+                <input type="checkbox" id="order5" name="cake">
+                <label for="order3">Frozen Caramel-Apple Crunch Cake</label>
+              </div>
+              <div>
+                <input type="checkbox" id="order6" name="brownies">
+                <label for="order4">Red Velvet Brownies with Cream Cheese Frosting</label>
+              </div>
+            </fieldset>
+          </form>
+          <div>
+            <button type="submit">Submit form</button>
+          </div>
         </div>
-        <div>
-          <input type="checkbox" id="order2" name="soup">
-          <label for="order2">Cream of Mushroom Soup</label>
-        </div>
-      </fieldset>
-    </form>
-    <form>
-      <fieldset>
-        <legend>Main Dishes</legend>
-        <div>
-          <input type="checkbox" id="order3" name="salmon">
-          <label for="order3">Pan-Seared Salmon with Kale and Apple Salad</label>
-        </div>
-        <div>
-          <input type="checkbox" id="order4" name="meat">
-          <label for="order4">Greek Meat and Chick Pea</label>
-        </div>
-      </fieldset>
-    </form>
-    <form>
-      <fieldset>
-      <legend>Dessert</legend>
-        <div>
-          <input type="checkbox" id="order5" name="cake">
-          <label for="order3">Frozen Caramel-Apple Crunch Cake</label>
-        </div>
-        <div>
-          <input type="checkbox" id="order6" name="brownies">
-          <label for="order4">Red Velvet Brownies with Cream Cheese Frosting</label>
-        </div>
-      </fieldset>
-    </form>
+      </div>
+    </div>
   </body>  
