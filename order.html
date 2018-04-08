@@ -66,7 +66,6 @@
           </form>
           <button onclick="myFunction()">Done</button>
           <p id="demo"></p>
-          <p id="demo2"></p>
         </div>
       </div>
     </div>
@@ -77,10 +76,9 @@
         var your_total = 0.0;
         for (var i=0; i<items.length; i++) {
           if (document.getElementById(items[i]).checked) {
-            your_total += prices[i].toFixed(2);
+            your_total += prices[i];
           }
         }
-        var service=(your_total)*(0.1)
         document.getElementById("demo").innerHTML = "Your individual bill is $"+your_total+".";
       }
     </script>
