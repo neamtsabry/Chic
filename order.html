@@ -72,7 +72,15 @@
     <script>
       function myFunction() {
           document.getElementById("button").value = "newCheckboxValue";
-          document.getElementById("demo").innerHTML = "Your total individual bill is $13.59. Please confirm your payment";
+        var items = ["order1", "order2", "order3", "order4", "order5", "order6"];
+        var prices = [10.99, 11.99, 12.99, 13.99, 7.99, 4.99];
+        var your_total = 0.0;
+        for (var i=0; i<items.length; i++) {
+          if (document.getElementById(items[i]).value) {
+            your_total += prices[i];
+          }
+        }
+        document.getElementById("demo").innerHTML = "Your total individual bill is $"+your_total+". Please confirm your payment";
       }
     </script>
   </body>  
