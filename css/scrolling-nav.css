@@ -54,16 +54,21 @@ section {
 }
 .button1 {background-color: #f4b08d;}
 /*for order.html*/
+
 form {
   width: 600px;
   margin: 0 auto;
 }
 
+form div {
+  margin-bottom: 10px;
+}
+
 fieldset {
-  border: 5px black;
+  background: white;
+  border: 5px solid beige;
 }
 
 legend {
   padding: 10px;
-  color: black;
 }
