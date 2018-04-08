@@ -64,10 +64,15 @@
               </div>
             </fieldset>
           </form>
-          <div>
-            <button type="submit">Submit form</button>
-          </div>
+          <button onclick="myFunction()">Done</button>
+          <p id="demo"></p>
         </div>
       </div>
     </div>
+    <script>
+      function myFunction() {
+          document.getElementById("myCheck").value = "newCheckboxValue";
+          document.getElementById("demo").innerHTML = "Your total individual bill is $13.59. Please confirm your payment";
+      }
+    </script>
   </body>  
