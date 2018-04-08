@@ -80,6 +80,6 @@ input:invalid {
 input:valid {
   border: 2px solid black;
 }
-#everything{
+.everything{
   margin-top: 10px;
 }
