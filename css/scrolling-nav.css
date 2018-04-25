@@ -20,7 +20,7 @@ section {
   padding: 150px 0;
 }
 .bg-primary{
-  background-image: url('./menu.png');
+  background-image: url('menu.png');
    background-position: center;
   background-size:cover;
   height: 100vh;
